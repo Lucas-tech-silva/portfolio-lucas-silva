@@ -1,5 +1,9 @@
 # 💼 Lucas Silva — Front-End Developer
 
+Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, com experiência em criação de aplicações web responsivas, consumo de APIs REST e desenvolvimento de experiências de usuário fluidas.
+
+Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projetos reais com foco em performance, boas práticas e UX/UI.
+
 <br>
 
 <div align="center">
@@ -11,10 +15,6 @@
 </div>
 
 <br>
-
-Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, com experiência em criação de aplicações web responsivas, consumo de APIs REST e desenvolvimento de experiências de usuário fluidas.
-
-Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projetos reais com foco em performance, boas práticas e UX/UI.
 
 ---
 
