@@ -1,407 +1,604 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Portfólio de Lucas Silva - Desenvolvedor Front-end e UI/UX Designer especializado em criar experiências digitais interativas e acessíveis">
-    <meta name="keywords" content="Desenvolvedor front-end, UX/UI designer, portfolio, HTML, CSS, JavaScript, React">
-    <meta name="author" content="Lucas Silva">
-    <meta name="theme-color" content="#3b82f6">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Lucas Silva - Desenvolvedor Front-end e UI/UX Designer especializado em criar experiências digitais interativas e acessíveis"
+    />
+    <meta
+      name="keywords"
+      content="Desenvolvedor front-end, UX/UI designer, portfolio, HTML, CSS, JavaScript, React"
+    />
+    <meta name="author" content="Lucas Silva" />
+    <meta name="theme-color" content="#3b82f6" />
     <title>Lucas Silva | Desenvolvedor Front-end & UI/UX Designer</title>
 
-    <link rel="icon" href="assets/img/dev-icon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="icon" href="assets/img/dev-icon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        media="print" onload="this.media='all'">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"
-        media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
 
     <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-            rel="stylesheet">
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
     </noscript>
-</head>
+  </head>
 
-<body data-theme="light">
+  <body data-theme="light">
     <header>
-        <nav class="navbar" aria-label="Navegação principal">
-            <div class="container">
-                <div class="logo" aria-label="Lucas Silva">Lucas Silva</div>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li>
-                        <button id="mobile-theme-toggle" class="theme-toggle" aria-label="Alternar tema escuro">
-                            <i class="fas fa-moon"></i>
-                            <i class="fas fa-sun"></i>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-right">
-                <button class="burger" aria-expanded="false" aria-label="Menu de navegação">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </button>
-            </div>
-        </nav>
+      <nav class="navbar" aria-label="Navegação principal">
+        <div class="container">
+          <div class="logo" aria-label="Lucas Silva">Lucas Silva</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li>
+              <button
+                id="mobile-theme-toggle"
+                class="theme-toggle"
+                aria-label="Alternar tema escuro"
+              >
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <button
+            class="burger"
+            aria-expanded="false"
+            aria-label="Menu de navegação"
+          >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </button>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1>Olá, eu sou <span>Lucas Silva</span></h1>
-                        <p>Desenvolvedor <strong>Front-end</strong> & <strong>UX/UI Designer</strong> dedicado a criar
-                            experiências digitais interativas e
-                            acessíveis que unem estética, funcionalidade e performance.</p>
-                        <div class="hero-buttons">
-                            <a href="#projetos" class="btn btn-primary"><i class="fas fa-code"
-                                    aria-hidden="true"></i>Ver Projetos</a>
-                            <a href="#contato" class="btn btn-outline"><i class="fas fa-paper-plane"
-                                    aria-hidden="true"></i> Contato</a>
-                            <a href="assets/cv/Lucas_Silva_Curriculo.pdf" download class="btn btn-outline"><i
-                                    class="fas fa-file-download" aria-hidden="true"></i> Baixar CV</a>
-                        </div>
-                    </div>
-                    <div class="hero-image">
-                        <img src="assets/img/Foto de programação-1.png " alt="Lucas Silva desenvolvedor front-end"
-                            width="600" height="400" loading="eager">
-                    </div>
-                </div>
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Olá, eu sou <span>Lucas Silva</span></h1>
+              <p>
+                Desenvolvedor <strong>Front-end</strong> &
+                <strong>UX/UI Designer</strong> dedicado a criar experiências
+                digitais interativas e acessíveis que unem estética,
+                funcionalidade e performance.
+              </p>
+              <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary"
+                  ><i class="fas fa-code" aria-hidden="true"></i>Ver Projetos</a
+                >
+                <a href="#contato" class="btn btn-outline"
+                  ><i class="fas fa-paper-plane" aria-hidden="true"></i>
+                  Contato</a
+                >
+                <a
+                  href="assets/cv/Lucas_Silva_Curriculo.pdf"
+                  download
+                  class="btn btn-outline"
+                  ><i class="fas fa-file-download" aria-hidden="true"></i>
+                  Baixar CV</a
+                >
+              </div>
             </div>
-        </section>
-
-        <section id="sobre" class="about">
-            <div class="container">
-                <h2 class="section-title">Sobre Mim</h2>
-                <div class="about-content">
-                    <div class="about-image">
-                        <img src="assets/img/Foto de programação-2.png" alt="Lucas Silva desenvolvedor front-end"
-                            width="500" height="350" loading="lazy">
-                    </div>
-                    <div class="about-text">
-                        <h3>Quem sou eu?</h3>
-                        <p>Olá! Sou Lucas Silva, um desenvolvedor <strong>front-end</strong> focado em criar interfaces
-                            interativas e
-                            experiências de usuário intuitivas. Combino experiência sólida em <strong>desenvolvimento
-                                web</strong> com bom
-                            domínio em <strong>UX/UI</strong> para criar produtos digitais completos.</p>
-                        <p>Meu objetivo é desenvolver <strong>aplicações web</strong> que não apenas funcionem
-                            perfeitamente, mas também
-                            proporcionem uma <strong>experiência agradável</strong> aos usuários. Estou sempre buscando
-                            aprender novas
-                            tecnologias e aprimorar minhas habilidades como profissional.</p>
-                        <a href="#contato" class="btn btn-primary">Entre em Contato</a>
-                    </div>
-                </div>
+            <div class="hero-image">
+              <img
+                src="assets/img/Foto de programação-1.png "
+                alt="Lucas Silva desenvolvedor front-end"
+                width="600"
+                height="400"
+                loading="eager"
+              />
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="habilidades" class="skills">
-            <div class="container">
-                <h2 class="section-title">Minhas Habilidades <span>Um breve resumo do meu domínio técnico</span></h2>
-
-                <div class="skills-container">
-                    <article class="skill-card">
-                        <div class="skill-card-header">
-                            <div class="skill-card-icon" aria-hidden="true"><i class="fab fa-html5"></i></div>
-                            <h3 class="skill-card-title">HTML5</h3>
-                        </div>
-                        <p>Criação de estruturas <strong>semânticas</strong> e <strong>acessíveis</strong> para websites
-                            modernos.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-card-header">
-                            <div class="skill-card-icon" aria-hidden="true"><i class="fab fa-css3-alt"></i></div>
-                            <h3 class="skill-card-title">CSS3</h3>
-                        </div>
-                        <p>Estilização avançada com <strong>Flexbox</strong>, <strong>Grid</strong> e animações
-                            responsivas.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-card-header">
-                            <div class="skill-card-icon" aria-hidden="true">
-                                <img src="assets/img/tailwind_css_logo.png" alt="Logo Tailwind CSS" width="32"
-                                    height="32" />
-                            </div>
-                            <h3 class="skill-card-title">Tailwind CSS</h3>
-                        </div>
-                        <p>Desenvolvimento de interfaces <strong>responsivas</strong> e <strong>flexíveis</strong> com
-                            Tailwind CSS.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-card-header">
-                            <div class="skill-card-icon" aria-hidden="true"><i class="fab fa-js"></i></div>
-                            <h3 class="skill-card-title">JavaScript</h3>
-                        </div>
-                        <p>Desenvolvimento de funcionalidades <strong>interativas</strong> e <strong>dinâmicas</strong>
-                            para web.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-card-header">
-                            <div class="skill-card-icon" aria-hidden="true"><i class="fas fa-paint-brush"></i></div>
-                            <h3 class="skill-card-title">UI Design</h3>
-                        </div>
-                        <p>Design de interfaces visuais atraentes e funcionais para aplicações <strong>web</strong>.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-card-header">
-                            <div class="skill-card-icon" aria-hidden="true"><i class="fas fa-user-friends"></i></div>
-                            <h3 class="skill-card-title">UX Design</h3>
-                        </div>
-                        <p>Criação de <strong>experiências de usuário</strong> intuitivas e centradas no usuário.</p>
-                    </article>
-                </div>
+      <section id="sobre" class="about">
+        <div class="container">
+          <h2 class="section-title">Sobre Mim</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <img
+                src="assets/img/Foto de programação-2.png"
+                alt="Lucas Silva desenvolvedor front-end"
+                width="500"
+                height="350"
+                loading="lazy"
+              />
             </div>
-        </section>
-
-        <section id="projetos" class="projects">
-            <div class="container">
-                <h2 class="section-title">Meus Projetos</h2>
-
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="assets/img/mockup/Sabor-em-casa.png" alt="Sabor em casa - Website de Receitas"
-                                width="600" height="400" loading="lazy">
-                        </div>
-                        <div class="project-info">
-                            <h3>Sabor em Casa - Website de Receitas</h3>
-                            <p>Plataforma de receitas responsiva desenvolvida com HTML, Tailwind CSS e JavaScript. Conta
-                                com SEO, interações dinâmicas e foco em UX/UI para uma navegação agradável em qualquer
-                                dispositivo.</p>
-                            <div class="project-tags" aria-label="Tecnologias utilizadas">
-                                <span class="project-tag">HTML</span>
-                                <span class="project-tag">CSS</span>
-                                <span class="project-tag">Tailwind CSS</span>
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">SEO</span>
-                                <span class="project-tag">UX/UI</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://sabor-em-casa.vercel.app/" target="_blank"
-                                    class="btn btn-primary btn-sm">
-                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i> Ver Projeto
-                                </a>
-                                <a href="https://github.com/Lucas-tech-silva/Sabor-em-Casa-Receitas" target="_blank"
-                                    class="btn btn-outline btn-sm">
-                                    <i class="fas fa-code" aria-hidden="true"></i> Código
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                                alt="Landing Page Responsiva" width="600" height="400" loading="lazy">
-                        </div>
-                        <div class="project-info">
-                            <h3>Landing Page - Freelancer  <span class="span-dev">Em desevolvimento!<span></h3>
-                            <p>Página responsiva criada com HTML5, CSS3 e JavaScript. Ideal para profissionais autônomos
-                                e pequenas empresas. Possui estrutura semântica, visual limpo, interações leves em JS e
-                                otimização de SEO.</p>
-                            <div class="project-tags" aria-label="Tecnologias utilizadas">
-                                <span class="project-tag">HTML</span>
-                                <span class="project-tag">CSS</span>
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">SEO</span>
-                                <span class="project-tag">UX/UI</span>
-
-                            </div>
-                            <div class="project-links">
-                                <a href="#" target="_blank" class="btn btn-primary btn-sm">
-                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i> Ver Projeto
-                                </a>
-                                <a href="#" target="_blank" class="btn btn-outline btn-sm">
-                                    <i class="fas fa-code" aria-hidden="true"></i> Código
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="assets/img/mockup/NEOWERTHER.png" alt="NeoWeather - Aplicativo de Clima"
-                                width="600" height="400" loading="lazy">
-                        </div>
-                        <div class="project-info">
-                            <h3>NeoWeather - Site de Previsão do Tempo</h3>
-                            <p>Site responsivo que exibe o clima em tempo real usando a API do OpenWeatherMap.
-                                Desenvolvido com HTML, CSS e JavaScript, possui fundo animado com Particles.js e design
-                                adaptado a todas as telas.
-                            </p>
-                            <div class="project-tags" aria-label="Tecnologias utilizadas">
-                                <span class="project-tag">HTML</span>
-                                <span class="project-tag">CSS</span>
-                                <span class="project-tag">JavaScript</span>
-                                <span class="project-tag">API</span>
-                                <span class="project-tag">Particles.js</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://neo-weather-iota.vercel.app/" target="_blank" class="btn btn-primary btn-sm">
-                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i> Ver Projeto
-                                </a>
-                                <a href="https://github.com/Lucas-tech-silva/NeoWeather/tree/main" target="_blank" class="btn btn-outline btn-sm">
-                                    <i class="fas fa-code" aria-hidden="true"></i> Código
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                </div>
+            <div class="about-text">
+              <h3>Quem sou eu?</h3>
+              <p>
+                Olá! Sou Lucas Silva, um desenvolvedor
+                <strong>front-end</strong> focado em criar interfaces
+                interativas e experiências de usuário intuitivas. Combino
+                experiência sólida em <strong>desenvolvimento web</strong> com
+                bom domínio em <strong>UX/UI</strong> para criar produtos
+                digitais completos.
+              </p>
+              <p>
+                Meu objetivo é desenvolver <strong>aplicações web</strong> que
+                não apenas funcionem perfeitamente, mas também proporcionem uma
+                <strong>experiência agradável</strong> aos usuários. Estou
+                sempre buscando aprender novas tecnologias e aprimorar minhas
+                habilidades como profissional.
+              </p>
+              <a href="#contato" class="btn btn-primary">Entre em Contato</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="contato" class="contact">
-            <div class="container">
-                <h2 class="section-title">Entre em Contato</h2>
-                <div class="contact-wrapper">
-                    <div class="contact-container">
-                        <div class="contact-info">
-                            <h3 class="contact-info-title">Informações de Contato</h3>
-                            <div class="contact-item">
-                                <div class="contact-icon" aria-hidden="true"><i class="fab fa-github"></i></div>
-                                <div class="contact-text">
-                                    <h4>GitHub</h4>
-                                    <a href="https://github.com/Lucas-tech-silva" target="_blank"
-                                        rel="noopener">github.com/lucassilva</a>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-icon" aria-hidden="true"><i class="fab fa-linkedin"></i></div>
-                                <div class="contact-text">
-                                    <h4>LinkedIn</h4>
-                                    <a href="https://www.linkedin.com/in/lucas-silva-ab6360365/" target="_blank"
-                                        rel="noopener">linkedin.com/in/lucassilva</a>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-icon" aria-hidden="true"><i class="fab fa-whatsapp"></i></div>
-                                <div class="contact-text">
-                                    <h4>WhatsApp</h4>
-                                    <a href="https://wa.me/5511995442274?text=Prezado%20Lucas%2C%20tudo%20bem%3F%20Tive%20acesso%20ao%20seu%20Portifólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o%20profissional.%20Aguardo%20seu%20retorno."
-                                        target="_blank" rel="noopener noreferrer">(11) 99544-2274</a>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
-                                <div class="contact-text">
-                                    <h4>Localização</h4>
-                                    <p>São Paulo, Brasil</p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-icon" aria-hidden="true"><i class="fas fa-file-pdf"></i></div>
-                                <div class="contact-text">
-                                    <h4>Currículo</h4>
-                                    <a href="assets/cv/Lucas_Silva_Curriculo.pdf" target="_blank"
-                                        class="cv-link">Visualizar CV <i class="fas fa-external-link-alt"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <form class="contact-form" id="formulario-contato"
-                            action="https://formsubmit.co/lucassilva1710@yahoo.com" method="POST" novalidate>
-                            <div class="form-group">
-                                <label for="name">Nome</label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Seu nome">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" class="form-control"
-                                    placeholder="seu.email@exemplo.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Assunto</label>
-                                <input type="text" id="subject" name="subject" class="form-control"
-                                    placeholder="Assunto da mensagem">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Mensagem</label>
-                                <textarea id="message" name="message" class="form-control" rows="5"
-                                    placeholder="Sua mensagem"></textarea>
-                            </div>
+      <section id="habilidades" class="skills">
+        <div class="container">
+          <h2 class="section-title">
+            Minhas Habilidades
+            <span>Um breve resumo do meu domínio técnico</span>
+          </h2>
 
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_subject" value="Novo contato do portfólio">
-                            <input type="hidden" name="_template" value="box">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-
-                            <button type="submit" id="btn-submit" class="btn btn-primary">
-                                <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar Mensagem
-                            </button>
-
-                            <div id="success-message" style="display: none; margin-top: 0;">
-                                <button class="btn btn-success">
-                                    <i class="fas fa-check" aria-hidden="true"></i>Sucesso
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+          <div class="skills-container">
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <div class="skill-card-icon" aria-hidden="true">
+                  <i class="fab fa-html5"></i>
                 </div>
+                <h3 class="skill-card-title">HTML5</h3>
+              </div>
+              <p>
+                Criação de estruturas <strong>semânticas</strong> e
+                <strong>acessíveis</strong> para websites modernos.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <div class="skill-card-icon" aria-hidden="true">
+                  <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3 class="skill-card-title">CSS3</h3>
+              </div>
+              <p>
+                Estilização avançada com <strong>Flexbox</strong>,
+                <strong>Grid</strong> e animações responsivas.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <div class="skill-card-icon" aria-hidden="true">
+                  <img
+                    src="assets/img/tailwind_css_logo.png"
+                    alt="Logo Tailwind CSS"
+                    width="32"
+                    height="32"
+                  />
+                </div>
+                <h3 class="skill-card-title">Tailwind CSS</h3>
+              </div>
+              <p>
+                Desenvolvimento de interfaces <strong>responsivas</strong> e
+                <strong>flexíveis</strong> com Tailwind CSS.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <div class="skill-card-icon" aria-hidden="true">
+                  <i class="fab fa-js"></i>
+                </div>
+                <h3 class="skill-card-title">JavaScript</h3>
+              </div>
+              <p>
+                Desenvolvimento de funcionalidades
+                <strong>interativas</strong> e <strong>dinâmicas</strong> para
+                web.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <div class="skill-card-icon" aria-hidden="true">
+                  <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 class="skill-card-title">UI Design</h3>
+              </div>
+              <p>
+                Design de interfaces visuais atraentes e funcionais para
+                aplicações <strong>web</strong>.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card-header">
+                <div class="skill-card-icon" aria-hidden="true">
+                  <i class="fas fa-user-friends"></i>
+                </div>
+                <h3 class="skill-card-title">UX Design</h3>
+              </div>
+              <p>
+                Criação de <strong>experiências de usuário</strong> intuitivas e
+                centradas no usuário.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="projects">
+        <div class="container">
+          <h2 class="section-title">Meus Projetos</h2>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/mockup/Sabor-em-casa.png"
+                  alt="Sabor em casa - Website de Receitas"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <h3>Sabor em Casa - Website de Receitas</h3>
+                  <p>
+                    Plataforma de receitas responsiva desenvolvida com HTML, Tailwind CSS e JavaScript. Conta com SEO, 
+                    interações dinâmicas e foco em UX/UI para uma navegação agradável em qualquer dispositivo. Projeto em evolução, 
+                    com melhorias contínuas de performance e experiência do usuário.
+                  </p>
+                <div class="project-tags" aria-label="Tecnologias utilizadas">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">SEO</span>
+                  <span class="project-tag">UX/UI</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://sabor-em-casa.vercel.app/"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                    Ver Projeto
+                  </a>
+                  <a
+                    href="https://github.com/Lucas-tech-silva/Sabor-em-Casa-Receitas"
+                    target="_blank"
+                    class="btn btn-outline btn-sm"
+                  >
+                    <i class="fas fa-code" aria-hidden="true"></i> Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                  alt="Landing Page Responsiva"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-info">
+                <h3>Landing Page - Freelancer  <span class="span-dev">Em desevolvimento!<span></h3>
+                  <p>
+                    Plataforma de receitas responsiva desenvolvida com HTML, Tailwind CSS e JavaScript. Conta com SEO, 
+                    interações dinâmicas e foco em UX/UI para uma navegação agradável em qualquer dispositivo. Projeto em evolução, 
+                    com melhorias contínuas de performance e experiência do usuário.
+                  </p>
+                <div class="project-tags" aria-label="Tecnologias utilizadas">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">SEO</span>
+                  <span class="project-tag">UX/UI</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" target="_blank" class="btn btn-primary btn-sm">
+                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                    Ver Projeto
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-outline btn-sm">
+                    <i class="fas fa-code" aria-hidden="true"></i> Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="assets/img/mockup/NEOWERTHER.png"
+                  alt="NeoWeather - Aplicação de Previsão do Tempo"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="project-info">
+                <h3>NeoWeather — Full Stack Weather App</h3>
+
+                <p>
+                  Aplicação full stack de previsão do tempo em tempo real, com
+                  arquitetura segura e foco em performance e responsividade. O
+                  backend atua como camada intermediária para proteger a API Key
+                  e estruturar o consumo de dados de forma mais segura e
+                  escalável.
+                </p>
+
+                <div class="project-tags" aria-label="Tecnologias utilizadas">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">Express</span>
+                  <span class="project-tag">API</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://neo-weather-iota.vercel.app/"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                  >
+                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                    Ver Projeto
+                  </a>
+
+                  <a
+                    href="https://github.com/Lucas-tech-silva/NeoWeather"
+                    target="_blank"
+                    class="btn btn-outline btn-sm"
+                  >
+                    <i class="fas fa-code" aria-hidden="true"></i>
+                    Código
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="contact">
+        <div class="container">
+          <h2 class="section-title">Entre em Contato</h2>
+          <div class="contact-wrapper">
+            <div class="contact-container">
+              <div class="contact-info">
+                <h3 class="contact-info-title">Informações de Contato</h3>
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>GitHub</h4>
+                    <a
+                      href="https://github.com/Lucas-tech-silva"
+                      target="_blank"
+                      rel="noopener"
+                      >github.com/lucassilva</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>LinkedIn</h4>
+                    <a
+                      href="https://www.linkedin.com/in/lucas-silva-ab6360365/"
+                      target="_blank"
+                      rel="noopener"
+                      >linkedin.com/in/lucassilva</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <i class="fab fa-whatsapp"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>WhatsApp</h4>
+                    <a
+                      href="https://wa.me/5511995442274?text=Prezado%20Lucas%2C%20tudo%20bem%3F%20Tive%20acesso%20ao%20seu%20Portifólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o%20profissional.%20Aguardo%20seu%20retorno."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >(11) 99544-2274</a
+                    >
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Localização</h4>
+                    <p>São Paulo, Brasil</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Currículo</h4>
+                    <a
+                      href="assets/cv/Lucas_Silva_Curriculo.pdf"
+                      target="_blank"
+                      class="cv-link"
+                      >Visualizar CV
+                      <i class="fas fa-external-link-alt" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <form
+                class="contact-form"
+                id="formulario-contato"
+                action="https://formsubmit.co/lucassilva1710@yahoo.com"
+                method="POST"
+                novalidate
+              >
+                <div class="form-group">
+                  <label for="name">Nome</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    placeholder="Seu nome"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="seu.email@exemplo.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Assunto</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    placeholder="Assunto da mensagem"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensagem</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    rows="5"
+                    placeholder="Sua mensagem"
+                  ></textarea>
+                </div>
+
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Novo contato do portfólio"
+                />
+                <input type="hidden" name="_template" value="box" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/index.html"
+                />
+
+                <button type="submit" id="btn-submit" class="btn btn-primary">
+                  <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar
+                  Mensagem
+                </button>
+
+                <div id="success-message" style="display: none; margin-top: 0">
+                  <button class="btn btn-success">
+                    <i class="fas fa-check" aria-hidden="true"></i>Sucesso
+                  </button>
+                </div>
+              </form>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">Lucas Silva</div>
-                    <p class="footer-text">Desenvolvedor <strong>Front-end</strong> & <strong>UI/UX Designer</strong>
-                        dedicado a criar experiências
-                        digitais incríveis.</p>
-                    <div class="footer-social">
-                        <a href="https://github.com/Lucas-tech-silva" target="_blank" class="social-link"
-                            aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/lucas-silva-ab6360365/" target="_blank" class="social-link"
-                            aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="https://wa.me/5511995442274?text=Prezado%20Lucas%2C%20tudo%20bem%3F%20Tive%20acesso%20ao%20seu%20Portifólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o%20profissional.%20Aguardo%20seu%20retorno."
-                            target="_blank" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"
-                                aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">Lucas Silva</div>
+            <p class="footer-text">
+              Desenvolvedor <strong>Front-end</strong> &
+              <strong>UI/UX Designer</strong> dedicado a criar experiências
+              digitais incríveis.
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://github.com/Lucas-tech-silva"
+                target="_blank"
+                class="social-link"
+                aria-label="GitHub"
+                ><i class="fab fa-github" aria-hidden="true"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/lucas-silva-ab6360365/"
+                target="_blank"
+                class="social-link"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i
+              ></a>
+              <a
+                href="https://wa.me/5511995442274?text=Prezado%20Lucas%2C%20tudo%20bem%3F%20Tive%20acesso%20ao%20seu%20Portifólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o%20profissional.%20Aguardo%20seu%20retorno."
+                target="_blank"
+                class="social-link"
+                aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp" aria-hidden="true"></i
+              ></a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Lucas Silva. Todos os direitos reservados.</p>
-            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Lucas Silva. Todos os direitos reservados.</p>
+        </div>
+      </div>
     </footer>
-
     <script src="js/main.js" defer></script>
-</body>
-
+  </body>
 </html>
-
-
-
-
