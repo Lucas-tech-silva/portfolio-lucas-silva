@@ -15,6 +15,8 @@ Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projeto
 
 </div>
 
+<br>
+
 ---
 
 ## 🚀 Sobre mim
