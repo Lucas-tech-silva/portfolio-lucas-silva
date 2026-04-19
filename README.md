@@ -1,5 +1,17 @@
 # 💼 Lucas Silva — Front-End Developer
 
+<br>
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+</div>
+
+<br>
+
 Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, com experiência em criação de aplicações web responsivas, consumo de APIs REST e desenvolvimento de experiências de usuário fluidas.
 
 Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projetos reais com foco em performance, boas práticas e UX/UI.
