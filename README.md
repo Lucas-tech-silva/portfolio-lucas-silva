@@ -1,21 +1,16 @@
 # 💼 Lucas Silva — Front-End Developer
 
-Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, com experiência na criação de aplicações web responsivas, consumo de APIs e desenvolvimento de experiências de usuário fluidas e acessíveis.
+Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, com experiência em criação de aplicações web responsivas, consumo de APIs REST e desenvolvimento de experiências de usuário fluidas.
 
-Atualmente, venho evoluindo minhas habilidades através de projetos práticos, com foco em **performance, organização de código e boas práticas de desenvolvimento front-end**.
-
-<br>
+Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projetos reais com foco em performance, boas práticas e UX/UI.
 
 ---
 
 ## 🚀 Sobre mim
 
-Sou um desenvolvedor apaixonado por tecnologia e criação de interfaces web.  
-Busco constantemente evoluir em **JavaScript moderno, React e consumo de APIs**, aplicando tudo em projetos reais publicados no GitHub.
+Sou desenvolvedor Front-End em evolução constante, com foco em construção de interfaces modernas e funcionais.
 
-Tenho interesse em atuar como **Desenvolvedor Front-End Júnior**, contribuindo com soluções modernas, escaláveis e focadas em experiência do usuário.
-
-<br>
+Tenho experiência prática em projetos pessoais utilizando **JavaScript, consumo de APIs e desenvolvimento de interfaces responsivas**, sempre buscando melhorar organização de código, usabilidade e qualidade visual.
 
 ---
 
@@ -28,145 +23,71 @@ Tenho interesse em atuar como **Desenvolvedor Front-End Júnior**, contribuindo 
 - React (componentização e hooks)
 - Next.js (em aprendizado)
 
-<br>
-
 ### 🔗 Integrações
 - Consumo de APIs REST
 - Manipulação de dados dinâmicos
 - JSON
 
-<br>
-
 ### ⚙️ Ferramentas
 - Git & GitHub
 - VS Code
-- Figma (protótipos e UI design)
-
-  <br>
+- Figma (UI design e prototipagem)
 
 ### 🎯 Boas práticas
-- UI/UX focado em experiência do usuário
-- Design responsivo (mobile-first)
+- Desenvolvimento mobile-first
 - Organização de código
+- Noções de UX/UI
 - Noções de SEO básico
-
- <br>
 
 ---
 
 ## 🚀 Projetos em destaque
 
 ### 🌦️ Weather App
-Aplicação web que consome API de clima em tempo real, exibindo dados dinâmicos de forma responsiva e intuitiva.
+Aplicação web que consome API de clima em tempo real, exibindo dados dinâmicos com interface responsiva.
 
-➡️ Demonstra: consumo de API REST, manipulação de dados com JavaScript e construção de interface dinâmica responsiva.
-
-<br>
+➡️ Demonstra: consumo de API REST, manipulação de dados com JavaScript e criação de interface dinâmica.
 
 ---
 
 ### 🍽️ Sabor em Casa
-Aplicação de receitas com interface interativa baseada em dados dinâmicos, focada em experiência do usuário e responsividade.
+Aplicação de receitas com interface dinâmica baseada em dados, focada em usabilidade e responsividade.
 
-➡️ Demonstra: manipulação de dados em JavaScript, organização de componentes e layout responsivo com foco em UX.
-
-<br>
+➡️ Demonstra: manipulação de dados, estruturação de interface e experiência do usuário.
 
 ---
 
-### 💼 Portfólio Pessoal (este projeto)
-Site pessoal desenvolvido do zero com HTML, CSS e JavaScript, incluindo responsividade, SEO básico e animações suaves.
+### 💼 Portfólio Pessoal
+Aplicação web desenvolvida do zero para apresentação profissional de projetos e habilidades.
 
-<br>
-
----
-
-## 📁 Estrutura do projeto
-
-```bash
-portifolio/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-├── assets/
-│   ├── img/
-│   └── cv/
-├── sitemap.xml
-└── robots.txt
-```
-<br>
+➡️ Demonstra: estruturação de layout, responsividade, organização de código e fundamentos de UX/UI.
 
 ---
 
-🎯 Objetivo profissional
+## 🎯 Objetivo profissional
 
-Busco oportunidades como Desenvolvedor Front-End Júnior, onde possa atuar com:
+Busco oportunidade como **Desenvolvedor Front-End Júnior**, atuando com:
 
-React / Next.js
-Consumo de APIs
-Desenvolvimento de interfaces modernas
-Participação em times ágeis
-
-Meu foco é evoluir constantemente e contribuir com produtos reais que impactem usuários.
-
-<br>
+- React / Next.js  
+- Consumo de APIs REST  
+- Desenvolvimento de interfaces modernas  
+- Participação em times ágeis  
 
 ---
 
 ## 📱 Responsividade
 
-Todos os projetos são desenvolvidos com abordagem mobile-first, garantindo adaptação perfeita em:
+Projetos desenvolvidos com abordagem **mobile-first**, garantindo boa experiência em qualquer dispositivo:
 
-📱 Smartphones
-💻 Desktops
-📟 Tablets
-
-<br>
+- 📱 Smartphones  
+- 💻 Desktops  
+- 📟 Tablets  
 
 ---
 
-## 👨‍💻 Autor
+## 📬 Contato
 
-**Lucas Silva**
-
-- Projeto Online - Sabor em Casa: [Clique aqui](https://sabor-em-casa.vercel.app/)
-- Perfil do GitHub: [Clique aqui](https://github.com/Lucas-tech-silva)  
-- Linkedin: [Clique aqui](https://www.linkedin.com/in/lucassilva-developer/)
-- Email: (<a href="mailto:lucassilva1710@yahoo.com?subject=Interesse%20em%20seu%20portf%C3%B3lio&body=Prezado%20Lucas%2C%0D%0A%0D%0AVisitei%20seu%20perfil%20e%20fiquei%20interessado%20em%20seu%20portf%C3%B3lio.%20Gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o.%0D%0A%0D%0AFico%20no%20aguardo%20de%20seu%20retorno." 
-target="_blank" rel="noopener noreferrer">
-  📧 Enviar Email
-</a>)
-
-  <br>
-
----
-
-## 📌 Status do Projeto
-
-✅ Portfólio em evolução contínua
-✅ Novos projetos sendo adicionados constantemente
-
-<br>
-
----
-
-## ✨ Fun Fact
-
-<p align="center">
-  💡 *Sabia que a primeira homepage do mundo foi publicada em 1991 por Tim Berners-Lee?* <br>
-  Foi o início da web como conhecemos hoje!
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://media1.tenor.com/m/kxiro8Eecb8AAAAd/coding.gif" width="280" alt="Animação de programação"/>
-</p>
-
-<br>
-
-<p align="center" style="font-style: italic; color: #444;">
-  ✨ "Código com significado cria conexões reais e resultados duradouros." — Lucas Silva
-</p>
+- 💼 LinkedIn: https://www.linkedin.com/in/lucassilva-developer/
+- 💻 GitHub: https://github.com/Lucas-tech-silva
+- 🌐 Projeto: https://sabor-em-casa.vercel.app/
+- 📧 Email: lucassilva1710@yahoo.com
