@@ -5,6 +5,7 @@ Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, c
 Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projetos reais com foco em performance, boas práticas e UX/UI.
 
 <br>
+<br>
 
 <div align="center">
 
@@ -13,8 +14,6 @@ Busco oportunidades como **Desenvolvedor Front-End Júnior**, atuando em projeto
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
-
-<br>
 
 ---
 
