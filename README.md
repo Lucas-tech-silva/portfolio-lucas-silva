@@ -4,6 +4,8 @@ Desenvolvedor Front-End focado em **React, JavaScript e interfaces modernas**, c
 
 Atualmente, venho evoluindo minhas habilidades através de projetos práticos, com foco em **performance, organização de código e boas práticas de desenvolvimento front-end**.
 
+<br>
+
 ---
 
 ## 🚀 Sobre mim
@@ -12,6 +14,8 @@ Sou um desenvolvedor apaixonado por tecnologia e criação de interfaces web.
 Busco constantemente evoluir em **JavaScript moderno, React e consumo de APIs**, aplicando tudo em projetos reais publicados no GitHub.
 
 Tenho interesse em atuar como **Desenvolvedor Front-End Júnior**, contribuindo com soluções modernas, escaláveis e focadas em experiência do usuário.
+
+<br>
 
 ---
 
@@ -24,21 +28,29 @@ Tenho interesse em atuar como **Desenvolvedor Front-End Júnior**, contribuindo 
 - React (componentização e hooks)
 - Next.js (em aprendizado)
 
+<br>
+
 ### 🔗 Integrações
 - Consumo de APIs REST
 - Manipulação de dados dinâmicos
 - JSON
+
+<br>
 
 ### ⚙️ Ferramentas
 - Git & GitHub
 - VS Code
 - Figma (protótipos e UI design)
 
+  <br>
+
 ### 🎯 Boas práticas
 - UI/UX focado em experiência do usuário
 - Design responsivo (mobile-first)
 - Organização de código
 - Noções de SEO básico
+
+ <br>
 
 ---
 
@@ -48,11 +60,15 @@ Tenho interesse em atuar como **Desenvolvedor Front-End Júnior**, contribuindo 
 Aplicação que consome API de clima em tempo real, exibindo dados dinâmicos de forma responsiva e intuitiva.  
 ➡️ Demonstra: consumo de API, JavaScript e UI dinâmica
 
+<br>
+
 ---
 
 ### 🍽️ Recipe App
 Aplicação de receitas com interface interativa e estrutura dinâmica baseada em dados.  
 ➡️ Demonstra: manipulação de dados, layout responsivo e organização de componentes
+
+<br>
 
 ---
 
@@ -60,10 +76,14 @@ Aplicação de receitas com interface interativa e estrutura dinâmica baseada e
 Interface moderna de aluguel de carros com foco em UX e design responsivo.  
 ➡️ Demonstra: layout avançado, responsividade e experiência do usuário
 
+<br>
+
 ---
 
 ### 💼 Portfólio Pessoal (este projeto)
 Site pessoal desenvolvido do zero com HTML, CSS e JavaScript, incluindo responsividade, SEO básico e animações suaves.
+
+<br>
 
 ---
 
@@ -120,7 +140,7 @@ Todos os projetos são desenvolvidos com abordagem mobile-first, garantindo adap
 - Projeto Online - Sabor em Casa: [Clique aqui](https://sabor-em-casa.vercel.app/)
 - Perfil do GitHub: [Clique aqui](https://github.com/Lucas-tech-silva)  
 - Linkedin: [Clique aqui](https://www.linkedin.com/in/lucassilva-developer/)
-- Email: [clique aqui](<a href="mailto:lucassilva1710@yahoo.com?subject=Interesse%20em%20seu%20portf%C3%B3lio&body=Prezado%20Lucas%2C%0D%0A%0D%0AVisitei%20seu%20perfil%20e%20fiquei%20interessado%20em%20seu%20portf%C3%B3lio.%20Gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o.%0D%0A%0D%0AFico%20no%20aguardo%20de%20seu%20retorno." 
+- Email: (<a href="mailto:lucassilva1710@yahoo.com?subject=Interesse%20em%20seu%20portf%C3%B3lio&body=Prezado%20Lucas%2C%0D%0A%0D%0AVisitei%20seu%20perfil%20e%20fiquei%20interessado%20em%20seu%20portf%C3%B3lio.%20Gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o.%0D%0A%0D%0AFico%20no%20aguardo%20de%20seu%20retorno." 
 target="_blank" rel="noopener noreferrer">
   📧 Enviar Email
 </a>)
