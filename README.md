@@ -57,24 +57,18 @@ Tenho interesse em atuar como **Desenvolvedor Front-End Júnior**, contribuindo 
 ## 🚀 Projetos em destaque
 
 ### 🌦️ Weather App
-Aplicação que consome API de clima em tempo real, exibindo dados dinâmicos de forma responsiva e intuitiva.  
-➡️ Demonstra: consumo de API, JavaScript e UI dinâmica
+Aplicação web que consome API de clima em tempo real, exibindo dados dinâmicos de forma responsiva e intuitiva.
+
+➡️ Demonstra: consumo de API REST, manipulação de dados com JavaScript e construção de interface dinâmica responsiva.
 
 <br>
 
 ---
 
-### 🍽️ Recipe App
-Aplicação de receitas com interface interativa e estrutura dinâmica baseada em dados.  
-➡️ Demonstra: manipulação de dados, layout responsivo e organização de componentes
+### 🍽️ Sabor em Casa
+Aplicação de receitas com interface interativa baseada em dados dinâmicos, focada em experiência do usuário e responsividade.
 
-<br>
-
----
-
-### 🚗 Car Rental UI
-Interface moderna de aluguel de carros com foco em UX e design responsivo.  
-➡️ Demonstra: layout avançado, responsividade e experiência do usuário
+➡️ Demonstra: manipulação de dados em JavaScript, organização de componentes e layout responsivo com foco em UX.
 
 <br>
 
