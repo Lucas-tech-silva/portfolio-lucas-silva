@@ -65,12 +65,12 @@ Projetado para funcionar perfeitamente em desktops, tablets e celulares, garanti
 
 ---
 
-## 🛠️ Autor
+## 👨‍💻 Autor
 
-Desenvolvido por **Lucas Silva** 💻  
+**Lucas Silva**
 
-- Perfil do GitHub: [Clique aqui](https://github.com/Lucas-tech-silva)  
 - Projeto Online - Sabor em Casa: [Clique aqui](https://sabor-em-casa.vercel.app/)
+- Perfil do GitHub: [Clique aqui](https://github.com/Lucas-tech-silva)  
 - Linkedin: [Clique aqui](https://www.linkedin.com/in/lucassilva-developer/)
 
   <br>
