@@ -69,9 +69,9 @@ Plataforma de recrutamento com foco em automação e análise de candidatos.
 
 ## 📬 Contato
 
-- GitHub: [Lucas-tech-silva](https://github.com/Lucas-tech-silva)
-- LinkedIn: [Lucas Silva](https://www.linkedin.com/in/lucassilva-developer/)
-- WhatsApp: [Entrar em contato](https://wa.me/5511995442274?text=Olá%20Lucas!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20na%20área%20de%20Front-end.)
+- GitHub:  https://github.com/Lucas-tech-silva
+- LinkedIn:  https://www.linkedin.com/in/lucassilva-developer/
+- WhatsApp:  [(11) 99544-2274](https://wa.me/5511995442274?text=Olá%20Lucas!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20na%20área%20de%20Front-end.)
 
 ---
 
