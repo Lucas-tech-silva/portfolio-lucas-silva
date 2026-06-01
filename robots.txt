@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portif-lio-nu-two.vercel.app/sitemap.xml
